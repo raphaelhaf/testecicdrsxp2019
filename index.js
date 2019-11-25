@@ -1,5 +1,5 @@
 const express = require('express');
-const pp = express();
+const app = express();
 
 app.get('/', (req,res)=> res.send('oks'));
 
